@@ -1,0 +1,71 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Estilos de la barra de navegación */
+nav {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+.logo {
+    float: left;
+}
+
+.nav-links {
+    float: right;
+}
+
+.nav-links li {
+    display: inline;
+    margin-right: 20px;
+}
+
+/* Estilos de la sección del héroe */
+.hero {
+    background-image: url('../images/hero-background.jpg');
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.hero h1 {
+    font-size: 3em;
+}
+
+.hero p {
+    font-size: 1.2em;
+}
+
+/* Estilos del botón */
+.btn {
+    display: inline-block;
+    background-color: #f60;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #e25800;
+}
+
+/* Estilos del pie de página */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
